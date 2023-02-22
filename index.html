@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>matematykA</title>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" href="style.css" style="display: block">
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <span class="mathproblem">
+                <script>
+                    let c = Math.floor((Math.random()+1)*17);
+                    let d = Math.floor((Math.random()+1)*17);
+                    document.body.querySelector("span.mathproblem").innerText = `${c} x ${d}`
+                </script>
+            </span>
+            <span>=</span>
+            <input class="math" pattern="[0-9]+">
+            <input type="button" onclick="check()" value="Zatwierdź">
+        </div>
+    </body>
+</html>
