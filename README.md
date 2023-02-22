@@ -1,2 +1,2 @@
 # math
-fireassassin.github.io/math/
+https://fireassassin.github.io/math/
